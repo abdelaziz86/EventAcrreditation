@@ -23,8 +23,7 @@ import { Route, Routes, useLocation } from "react-router-dom";
 
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import Footer from "components/Footer/Footer.js";
-import Sidebar from "components/Sidebar/Sidebar.js";
-import FixedPlugin from "components/FixedPlugin/FixedPlugin.js";
+import Sidebar from "components/Sidebar/Sidebar.js"; 
 
 import routes from "routes.js";
 
@@ -81,12 +80,7 @@ function Dashboard(props) {
         </Routes>
         <Footer fluid />
       </div>
-      <FixedPlugin
-        bgColor={backgroundColor}
-        activeColor={activeColor}
-        handleActiveClick={handleActiveClick}
-        handleBgClick={handleBgClick}
-      />
+       
     </div>
   );
 }
