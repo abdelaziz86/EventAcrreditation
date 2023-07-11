@@ -77,8 +77,7 @@ function Dashboard(props) {
               />
             );
           })}
-        </Routes>
-        <Footer fluid />
+        </Routes> 
       </div>
        
     </div>

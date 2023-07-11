@@ -146,59 +146,9 @@ function Dashboard() {
             </Card>
           </Col>
         </Row>
-        <Row>
-          <Col md="12">
-            <Card>
-              <CardHeader>
-                <CardTitle tag="h5">Users Behavior</CardTitle>
-                <p className="card-category">24 Hours performance</p>
-              </CardHeader>
-              <CardBody>
-                <Line
-                  data={dashboard24HoursPerformanceChart.data}
-                  options={dashboard24HoursPerformanceChart.options}
-                  width={400}
-                  height={100}
-                />
-              </CardBody>
-              <CardFooter>
-                <hr />
-                <div className="stats">
-                  <i className="fa fa-history" /> Updated 3 minutes ago
-                </div>
-              </CardFooter>
-            </Card>
-          </Col>
-        </Row>
-        <Row>
-          <Col md="4">
-            <Card>
-              <CardHeader>
-                <CardTitle tag="h5">Email Statistics</CardTitle>
-                <p className="card-category">Last Campaign Performance</p>
-              </CardHeader>
-              <CardBody style={{ height: "266px" }}>
-                <Pie
-                  data={dashboardEmailStatisticsChart.data}
-                  options={dashboardEmailStatisticsChart.options}
-                />
-              </CardBody>
-              <CardFooter>
-                <div className="legend">
-                  <i className="fa fa-circle text-primary" /> Opened{" "}
-                  <i className="fa fa-circle text-warning" /> Read{" "}
-                  <i className="fa fa-circle text-danger" /> Deleted{" "}
-                  <i className="fa fa-circle text-gray" /> Unopened
-                </div>
-                <hr />
-                <div className="stats">
-                  <i className="fa fa-calendar" /> Number of emails sent
-                </div>
-              </CardFooter>
-            </Card>
-          </Col>
-           
-        </Row>
+         
+        
+        
       </div>
     </>
   );
